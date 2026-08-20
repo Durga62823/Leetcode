@@ -8,10 +8,6 @@ class Solution:
                 arr1.append(nums[i])
             else:
                 arr2.append(nums[i])
-        res=[]
-        for num in arr1:
-            res.append(num)
-        for num in arr2:
-            res.append(num)
-        return res
+
+        return arr1+arr2
 
